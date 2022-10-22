@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: #dda760;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.logo img {
+    width: auto;
+    height: auto;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+    margin: 0 20px;
+    font-size:x-large;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    color:black;
+    font-family:Cotford;
+}
+
+footer {
+    background-color: #ffff4d;
+    color: #000;
+    overflow: hidden;
+    float: inline-start;
+}
+
+.overlay {
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+}
+
+.card-body {
+    background: linear-gradient(#fff, #fff);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.compare {background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) , rgba(110,123,251,1) );
+}
+
+p,
+h3,
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.phone-box {
+    box-shadow: 5px 9px #000;
+}
+
+.navi-prop {
+    background-color: #9c27b0;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 30px 30px;
+}
+.btn-secondary{float: right;
+}
